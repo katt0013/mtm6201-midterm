@@ -17,14 +17,15 @@ body {
   }
   nav{
     background: orange;
-    height: 120px;
+    height: 200px;
     width: 100%;
   }
   label.menu{
+    text-align: right;
     color: black;
-    font-size: 35px;
+    font-size: 65px;
     line-height: 80px;
-    padding: 0;
+    padding-right: 20px;
     font-weight: bold;
   }
   nav ul{
@@ -33,13 +34,89 @@ body {
   }
 
   nav ul li{
-display: inline-block;
-line-height: 60px;
-margin: 0 5 px;
+    background-color: black;
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 20px;
   }
 
   nav ul li a{
-    color: black;
-    font-size: 17px;
+    color: white;
+    font-size: 45px;
     text-transform: uppercase;
   }
+
+.text-editor{
+  font-size: 45px;
+  text-decoration: wavy;
+  text-align: center;
+
+}
+.head-centre{
+  font-size: 60px;
+  text-align: center;
+  text-decoration: blue;
+  text-transform: uppercase;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #8a2be2;
+  color: #fff;
+}
+
+.logo-container {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px #8a2be2;
+  margin-left: 2cm;
+}
+
+.logo-container h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.contact-info {
+  text-align: right;
+  font-size: 24px;
+}
+
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+footer {
+  font-size: 28px;
+  text-align: center;
+  padding: 20px;
+}
+
+.left-sections {
+  font-size: 35px;
+  float: left;
+  width: 50%;
+}
+
+.right-sections {
+  font-size: 35px;
+  float: right;
+  width: 50%;
+}
+
+.center-section {
+  font-size: 35px;
+  text-align: center;
+}
